@@ -1,6 +1,6 @@
 export const Title = ({ text }) => {
   return (
-    <h1 className="text-white text-center text-4xl font-bold uppercase">
+    <h1 className="text-indigo-1000 text-center text-4xl font-bold uppercase text-bond">
       {text}
     </h1>
   );

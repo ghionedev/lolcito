@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.filtro {
+  display: none;
+}
+
+.sidebar-closed {
+  transform: translateX(-90%);
+}
+
+.sidebar-open {
+  transform: translateX(100);
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
