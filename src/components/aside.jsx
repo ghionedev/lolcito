@@ -33,7 +33,7 @@ const toggleSideBar = () => {
       </ul>
     </div>
     <button
-      className="text-yellow-500 text-6xl"
+      className={`text-yellow-500 text-6xl ${sideBar === true ? "rotate-180" : "rotate-0"} duration-300 ease-in-out `}
       onClick={() => toggleSideBar(sideBar)}
     >{`>`}</button>
   </aside>
